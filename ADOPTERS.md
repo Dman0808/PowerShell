@@ -25,8 +25,10 @@ This is a list of adopters using PowerShell in production or in their products (
   Enable non-admins like help desk and tier 1 support teams to execute secure web based tools on any platform `without admin rights`.
   Configure flexible RBAC permissions from an intuitive interface, without a complex learning curve.
   Script output along with all actions are audited. Manage up to 5,000 nodes for free with the [Community Edition](https://systemfrontier.com/solutions/community-edition/).
-* [Amazon AWS](https://aws.com) supports PowerShell in a wide variety of its products including [AWS tools for PowerShell](https://github.com/aws/aws-tools-for-powershell),
-  [AWS Lambda Support For PowerShell](https://github.com/aws/aws-lambda-dotnet/tree/master/PowerShell) and [AWS PowerShell Tools for `CodeBuild`](https://docs.aws.amazon.com/powershell/latest/reference/items/CodeBuild_cmdlets.html)
+* [Amazon AWS](https://aws.com) supports PowerShell in a wide variety of its products including
+  [AWS tools for PowerShell](https://github.com/aws/aws-tools-for-powershell),
+  [AWS Lambda Support For PowerShell](https://github.com/aws/aws-lambda-dotnet/tree/master/PowerShell) and
+  [AWS PowerShell Tools for `CodeBuild`](https://docs.aws.amazon.com/powershell/latest/reference/items/CodeBuild_cmdlets.html)
   as well as supporting PowerShell Core in both Windows and Linux EC2 Images.
 * [Azure Resource Manager Deployment Scripts](https://learn.microsoft.com/azure/azure-resource-manager/templates/deployment-script-template) Complete the "last mile" of your Azure Resource Manager (ARM) template deployments with a Deployment Script, which enables you to run an arbitrary PowerShell script in the context of a deployment.
   It is designed to let you complete tasks that should be part of a deployment, but are not possible in an ARM template today — for example, creating a Key Vault certificate or querying an external API for a new CIDR block.
@@ -36,4 +38,7 @@ This is a list of adopters using PowerShell in production or in their products (
 * [Microsoft HoloLens](https://www.microsoft.com/hololens) makes extensive use of PowerShell 7+ throughout the development cycle to automate tasks such as firmware assembly and automated testing.
 * [Power BI](https://powerbi.microsoft.com/) provides PowerShell users a set of cmdlets in [MicrosoftPowerBIMgmt](https://learn.microsoft.com/powershell/power-bi) module to manage and automate the Power BI service.
   This is in addition to Power BI leveraging PowerShell, internally for various engineering systems and infrastructure for its service.
-* [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core) is a small form factor Windows edition for IoT devices and now you can easily include the [PowerShell package](https://github.com/ms-iot/iot-adk-addonkit/blob/master/Tools/IoTCoreImaging/Docs/Import-PSCoreRelease.md#Import-PSCoreRelease) in your imaging process.
+* [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core) is a small form factor Windows edition for IoT devices.
+  Now you can easily include the
+  [PowerShell package](https://github.com/ms-iot/iot-adk-addonkit/blob/master/Tools/IoTCoreImaging/Docs/Import-PSCoreRelease.md#Import-PSCoreRelease)
+  in your imaging process.
